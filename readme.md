@@ -32,32 +32,30 @@ NODE_ENV=
 ---
 ## Scripts disponibles
 
-npm run dev: Ejecuta el servidor en modo desarrollo con recarga automática (ts-node-dev).
+```npm run dev``` Ejecuta el servidor en modo desarrollo con recarga automática (ts-node-dev).
 
-npm run build: Compila el código TypeScript a JavaScript en la carpeta dist.
+```npm run build```: Compila el código TypeScript a JavaScript en la carpeta dist.
 
-npm run start: Ejecuta el servidor con ts-node (ideal para pruebas rápidas).
+```npm run start```: Ejecuta el servidor con ts-node (ideal para pruebas rápidas).
 
-npm run start:prod: Ejecuta el servidor compilado desde la carpeta dist (modo producción).
+```npm run start:prod ```: Ejecuta el servidor compilado desde la carpeta dist (modo producción).
 
 
 ## Instalacion y ejecución
 
 ### Clona el repositorio:
 
-git clone <https://github.com/GodoyMS/sabbi-test>
-cd <sabbi-test>
+```git clone https://github.com/GodoyMS/sabbi-test```
+
+```cd sabbi-test```
 
 ### Instala las dependencias:
-npm install
+```npm install```
 
 ### Crea y configura tu archivo .env con las variables necesarias.
 
 ### Ejecuta el servidor en modo desarrollo:
-```
-npm run dev
-
-```
+```npm run dev```
 
 ### Abre tu navegador y visita http://localhost:3000/api-docs para ver la documentación de la API con Swagger.
 

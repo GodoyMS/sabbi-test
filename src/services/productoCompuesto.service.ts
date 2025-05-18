@@ -123,7 +123,6 @@ export class ProductoCompuestoService {
       detalles.push(detalle);
     }
 
-    // Replace the current detalles with the new ones
     compuesto.detalles = detalles;
 
     await this.compuestoRepo.save(compuesto);

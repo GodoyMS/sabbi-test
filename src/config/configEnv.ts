@@ -1,7 +1,6 @@
-// src/config/envConfig.ts
 
 import { config } from "dotenv";
-config(); // Load .env file
+config(); 
 
 export const env = {
  NODE_ENV: process.env.NODE_ENV || 'development',

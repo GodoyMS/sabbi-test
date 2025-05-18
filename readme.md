@@ -1,6 +1,19 @@
-# Proyecto Sabbi
+# Sabbi test
 
 Este proyecto es una API backend construida con TypeScript, Express y TypeORM usando PostgreSQL como base de datos. Expone endpoints REST documentados con Swagger.
+
+---
+
+
+## 🚀 Despliegue
+
+La aplicación está desplegada en Railway:
+
+🔗 **API en producción**: [https://sabbi-test-production.up.railway.app](https://sabbi-test-production.up.railway.app)
+
+🔗 **Documentación OPEN API en producción**: [https://sabbi-test-production.up.railway.app/api-docs](https://sabbi-test-production.up.railway.app/api-docs)
+
+La base de datos PostgreSQL también está alojada en Railway.
 
 ---
 
@@ -59,6 +72,7 @@ NODE_ENV=
 
 ### Abre tu navegador y visita http://localhost:3000/api-docs para ver la documentación de la API con Swagger.
 
+---
 
 ## Base de datos
 El proyecto utiliza PostgreSQL junto con TypeORM para modelar datos y manejar migraciones.
